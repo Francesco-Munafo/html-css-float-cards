@@ -83,8 +83,6 @@ p {
     float: left;
 }
 
-.row {}
-
 
 .description {
    width: calc(100% - 100px);
