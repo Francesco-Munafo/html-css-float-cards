@@ -75,6 +75,7 @@ p {
     background-color: var(--team-profilebg);
     height: 100px;
     box-shadow: grey 0px 0px 5px 1px;
+    display: inline-block;
     }
 
 .pics{
