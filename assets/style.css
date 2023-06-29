@@ -66,12 +66,15 @@ p {
 
 .col {
     float: left;
-    width: calc(100% / 3 - 2rem);
-    padding: 0 2rem 2rem 0
+    width: calc(100% / 3);
+    padding: 0 0 2rem 2rem;
+    
     }
 
 .card{
     background-color: var(--team-profilebg);
+    height: 100px;
+    box-shadow: grey 0px 0px 5px 1px;
     }
 
 .pics{
@@ -85,15 +88,15 @@ p {
    width: calc(100% - 100px);
    float: left;
    padding: 1rem;
-}
+   }
 
-
-span{
-    margin-top: 2rem;
- }
 
  a{
     text-decoration: none;
     color: var(--team-mail);
+ }
+
+ .profession{
+    margin:0.;
  }
 /*#endregion Container */
