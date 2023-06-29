@@ -33,7 +33,7 @@
 /*#region Debug */
 
 .debug {
-    height: 200px;
+   height: 100px;
     background-color: red;
 }
 
@@ -66,30 +66,34 @@ p {
 
 .col {
     float: left;
-    width: calc(90% / 3);
-    height: 100px;
+    width: calc(100% / 3 - 2rem);
+    padding: 0 2rem 2rem 0
+    }
+
+.card{
     background-color: var(--team-profilebg);
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-    display: flex;
+    }
+
+.pics{
+    float: left;
 }
 
 .row {}
 
-img {
-    max-width: 100%;
-}
 
-section {
-    max-width: calc(90% / 3);
-    margin: 0.5rem;
-    max-width: 300px;
-    padding: 0.3rem;
+.description {
+   width: calc(100% - 100px);
+   float: left;
+   padding: 1rem;
 }
 
 
 span{
-    
+    margin-top: 2rem;
  }
 
+ a{
+    text-decoration: none;
+    color: var(--team-mail);
+ }
 /*#endregion Container */
